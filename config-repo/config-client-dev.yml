@@ -1,5 +1,5 @@
 info:
-  profile: dev bus
+  profile: '{cipher}ff2f88eb3fbed570cef1b4a13e59d0bb3f1e89667d51db6ad9cda284381275f9'
 ck:
   swagger:
     title: CHARLES-KEITH RESTful Content APIs
