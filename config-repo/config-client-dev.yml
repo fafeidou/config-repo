@@ -1,2 +1,24 @@
 info:
   profile: dev bus
+ck:
+  swagger:
+    title: CHARLES-KEITH RESTful Content APIs
+    description: 桦洁商贸电子商务微服务<font color="red">内容模块</font>接口文档
+    version: 1.0
+    modules:
+      - {
+        model-name: ck-content,
+        packages: ["com.charleskeith.content.controller.admin","com.charleskeith.microservice.content.client"],
+        group-name: ck-content,
+        name: ck-content,
+        location: "/admin/service-content/v2/api-docs?group=ck-content",
+        version: 2.0
+      }
+      - {
+        model-name: ck-test,
+        packages: ["com.charleskeith.content.controller","com.charleskeith.microservice.content.client"],
+        group-name: ck-test,
+        name: ck-test,
+        location: "/admin/service-content/v2/api-docs?group=ck-test",
+        version: 2.0
+      }
